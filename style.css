@@ -62,8 +62,7 @@ input, button {
 
 .add-item__button,
 .task-list__edit-button,
-.task-list__delete-button,
-.task-list__save-button {
+.task-list__delete-button {
   background: none;
   border: 0px;
   color: #888;
@@ -75,8 +74,7 @@ input, button {
 
 .add-item__button:hover,
 .task-list__edit-button:hover,
-.task-list__delete-button:hover,
-.task-list__save-button:hover {
+.task-list__delete-button:hover {
   color: #3a3A3a;
 }
 

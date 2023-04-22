@@ -112,6 +112,10 @@ input, button {
 }
 
 /* New Task */
+#add-item-title {
+  margin: 16px 0;
+}
+
 .add-item__label {
   display: block;
   margin: 0 0 20px;

@@ -4,29 +4,36 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .heading-box {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .heading-box__image {
   width: 100%;
 }
+
 .heading-box .heading-box__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
+
   .heading-box {
     text-align: center;
   }
+
 }
+
 .main-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .add-item__input,
 .task-list__label,
 .task-list__input {
@@ -34,20 +41,25 @@
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 .task-list {
   margin: 0;
   padding: 0px;
 }
+
 .task-list__item,
 .section-title {
   list-style: none;
 }
+
 input, button {
   outline: none;
 }
+
 .add-item__button,
 .task-list__edit-button,
 .task-list__delete-button,
@@ -60,12 +72,14 @@ input, button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .add-item__button:hover,
 .task-list__edit-button:hover,
 .task-list__delete-button:hover,
 .task-list__save-button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .section-title,
 .add-item__label {
@@ -77,6 +91,7 @@ input, button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .add-item__input,
 .task-list__input {
   margin: 0;
@@ -90,6 +105,7 @@ input, button {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .add-item__input:focus,
 .task-list__input:focus {
   color: #333;
@@ -100,6 +116,7 @@ input, button {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -109,11 +126,11 @@ input, button {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .task-list__item > * {
   vertical-align: middle;
 }
@@ -121,20 +138,24 @@ input, button {
 .task-list__item > .task-list__checkbox {
   margin: 0 10px;
 }
+
 .task-list__item > .task-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-list__item > .task-list__input {
   width: 226px
 }
+
 .task-list__delete-button__icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task-list__delete-button__icon:hover {
   transform: rotateZ(0);
 }
